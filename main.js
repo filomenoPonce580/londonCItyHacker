@@ -1,5 +1,6 @@
 //first attempt
 //doesnt bundle up pairs... treats 3 in a row as just one fare
+//figure out how to reset after a pair and begin new count for doubles
 
 function londonCityHacker(journey) {
   //strings === 2.4
