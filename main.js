@@ -40,6 +40,19 @@ function londonCityHacker(journey) {
   buses = buses*1.5;
   backToBacks = backToBacks*1.5;
   
+  //something like this?
+  /*
+    if(backToBacks < 1){
+    backToBacks = 0
+  }else if(backToBacks <= 2){
+    backToBacks = 1.5
+  }else if(backToBacks <= 4){
+    backToBacks = 3
+  }else if(backToBacks <= 6){
+    backToBacks = 4.5
+  }
+  */
+  
   
   //subtract doubles from total buses. add to total
   total = (total + buses - backToBacks);
