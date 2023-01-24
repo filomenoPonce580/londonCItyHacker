@@ -1,7 +1,7 @@
 //first attempt
 //doesnt bundle up pairs... treats 3 in a row as just one fare
 //figure out how to reset after a pair and begin new count for doubles
-
+/*
 function londonCityHacker(journey) {
   //strings === 2.4
   //bus === 1.5
@@ -51,7 +51,7 @@ function londonCityHacker(journey) {
   }else if(backToBacks <= 6){
     backToBacks = 4.5
   }
-  */
+  
   
   
   //subtract doubles from total buses. add to total
@@ -61,7 +61,7 @@ function londonCityHacker(journey) {
   return "£" + total.toFixed(2)
 }
 
-/*
+*/
 function londonCityHacker(journey) {
   let sum = 0;
   
@@ -75,4 +75,3 @@ function londonCityHacker(journey) {
   
   return `£${sum.toFixed(2)}`;
 }
-*/
